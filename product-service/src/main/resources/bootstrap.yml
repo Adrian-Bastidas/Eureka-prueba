@@ -10,3 +10,16 @@ spring:
     admin:
       client:
         url: http://localhost:8086
+prod:
+  doctrine:
+    param:
+      dsn:        mysql:dbname=blog;host=localhost
+      username:   login
+      password:   passwd
+      attributes:
+        quote_identifier: false
+        use_native_enum: false
+        validate: all
+        idxname_format: %s_idx
+        seqname_format: %s_seq
+        tblname_format: %s

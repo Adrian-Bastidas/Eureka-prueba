@@ -10,7 +10,7 @@ spring:
           searchPaths: config-data
           username: ${magobasti}
           password: ${Latano123}
-          default-label: "master"
+          default-label: "main"
   security:
     user:
       name: root
